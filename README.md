@@ -3,17 +3,17 @@
 
 ### Purpose of the site
 
-I want to have a site that inspires confidence in my production services to a first time client. I intend to use funny audio samples to entertain and provoke interest. The snippets will be of a professional production standard, doubling as a kind of proof of ability. What I don't want is either a site that is dull or a site that is overly kooky. 
+I want to have a site that inspires confidence in my production services to a first time client. I intend to use funny audio samples to entertain and provoke interest. The snippets will be of a professional production standard, doubling as a kind of proof of ability. 
 
 ### Value of the site
 
-The difficulty is: communicating the musical and organisational skills of an experienced music producer to a generation of clients who think of our work as an entirely technical profession. The site has value to a serious musical artist who is concerned that their musical vision is compromised by their financial means, technical knowhow and lack of trustworthy feedback. For that person, the combination of persuasive reasoning and snappy, responsive audio media would inspire the thought "Aha, this is exactly the combination of practical ability and creative orientation I am looking for." I would like people who are hesitant or unfamiliar with the lingo to feel welcome, by not using overly technical or cliquey language. 
+The difficulty is: communicating the musical and organisational skills of a music producer to a generation of clients who think our work is entirely technical. The site has value to a musical artist who is concerned their musical vision is compromised - by their financial means, technical knowhow and lack of trustworthy feedback. For that person, the combination of persuasive reasoning and audio media would inspire the thought "Aha, this is exactly the combination of practical ability and creative orientation I am looking for." I would like people who are hesitant or unfamiliar with the lingo to feel welcome, by not using overly technical or cliquey language. 
 
 Derek Sivers of CD Baby gives this advice: "find out who it is that you dont mind alienating, it will make your marketing strategy a lot clearer". In this case, I have very clear ideas of who I want to avoid: 
 
 #### People who just want the cheapest service available.
 
-I will not publish any price rates or mention any kind of special deals on the site. The overall design aesthetic should communicate quality, and do that in such a way that those people will instinctively think I'm too expensive for them. Its probably not going to deter every one of those people, but I like that as a starting point. This is a very common experience in our industry, that we waste a lot of time on communications with people who want it as close to free as possible. Usually the serious ones have no issue with our modest rates, and know that the reality of the process often means we go above and beyond what is remunerated. 
+The overall design aesthetic should communicate quality, and do that in such a way that those people will instinctively think I'm too expensive for them. Its probably not going to deter every one of those people, but I like that as a starting point. I will not publish any price rates or mention any kind of special deals on the site either. It is very common that we waste a lot of time on people who want us to work for free. Usually the serious ones have no issue with our modest rates, and know that the reality of the process often means we go above and beyond what is remunerated. 
 
 #### People who don't take their art seriously.
 
@@ -39,11 +39,18 @@ Margins, paddings, max-widths so that on a mobile view everything is nicely spac
 
 At a reasonable breakpoint, I will use media queries to organise the site into rows and columns. I intend to use the display:grid property as the heart of that. Each page will be a little bit different, but at the most complex I will still only have two columns for the main section. There may be a card at some point with a more complex nested grid structure, for the composition page. 
 
-Since I have mocked up the desktop view on Figma, Im still not clear on what design elements will be best on a mobile. 
+Since I have mocked up the desktop view on Figma, Im still not clear on what specific layout elements will be best on a mobile. 
+
+#### Other peoples codes and ideas
+
+At no point will I copy and paste code into my project from elsewhere, its just not as fun. I will however, follow certain procedural approaches, like the collapsing navbar I mentioned. This is mostly because it makes sense, is simple and elegant as well as easy to update. 
+
+If I do end up using Bootstrap, I will of course use their code snippets as a starting place. 
 
 ### Figma screenshots
 
 Looking for the right image for the Rec/Mix page, but for now I am using this as a placeholder. Also, have yet to pick an accent colour out. I don't want a strictly black and white site, at least at this point... Fonts are also still being chosen. 
+
 
 ### Home page
 ![Home Page](readmeimg/home.png)
@@ -63,7 +70,7 @@ Looking for the right image for the Rec/Mix page, but for now I am using this as
 
 [KP Building a CSS Grid layout](https://www.youtube.com/watch?v=v5KzBPUEgGQ)
 
-
+[KP on collapsing navbar, no JS](https://www.youtube.com/watch?v=8QKOaTYvYUA)
 
     
 
