@@ -43,9 +43,25 @@ Since I have mocked up the desktop view on Figma, Im still not clear on what des
 
 ### Figma screenshots
 
+Looking for the right image for the Rec/Mix page, but for now I am using this as a placeholder. Also, have yet to pick an accent colour out. I don't want a strictly black and white site, at least at this point... Fonts are also still being chosen. 
+
+### Home page
+![Home Page](readmeimg/home.png)
+### Production page
+![Production Page](readmeimg/prod.png)
+### Recording/Mixing page
+![Recording/Mixing Page](readmeimg/recmix.png)
+### Composition page
+![Composition Page](readmeimg/compose.png)
+### Contact Page
+![Contact Page](readmeimg/contact.png)
 
 
+## Video resources
 
+[KP Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
+
+[KP Building a CSS Grid layout](https://www.youtube.com/watch?v=v5KzBPUEgGQ)
 
 
 
