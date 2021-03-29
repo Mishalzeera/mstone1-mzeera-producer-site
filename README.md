@@ -1,45 +1,53 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 1
+## Website for my music production services
 
-Welcome USER_NAME,
+### Purpose of the site
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I want to have a site that inspires confidence in my production services to a first time client. I intend to use funny audio samples to entertain and provoke interest. The snippets will be of a professional production standard, doubling as a kind of proof of ability. What I don't want is either a site that is dull or a site that is overly kooky. 
 
-## Gitpod Reminders
+### Value of the site
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The difficulty is: communicating the musical and organisational skills of an experienced music producer to a generation of clients who think of our work as an entirely technical profession. The site has value to a serious musical artist who is concerned that their musical vision is compromised by their financial means, technical knowhow and lack of trustworthy feedback. For that person, the combination of persuasive reasoning and snappy, responsive audio media would inspire the thought "Aha, this is exactly the combination of practical ability and creative orientation I am looking for." I would like people who are hesitant or unfamiliar with the lingo to feel welcome, by not using overly technical or cliquey language. 
 
-`python3 -m http.server`
+Derek Sivers of CD Baby gives this advice: "find out who it is that you dont mind alienating, it will make your marketing strategy a lot clearer". In this case, I have very clear ideas of who I want to avoid: 
 
-A blue button should appear to click: *Make Public*,
+#### People who just want the cheapest service available.
 
-Another blue button should appear to click: *Open Browser*.
+I will not publish any price rates or mention any kind of special deals on the site. The overall design aesthetic should communicate quality, and do that in such a way that those people will instinctively think I'm too expensive for them. Its probably not going to deter every one of those people, but I like that as a starting point. This is a very common experience in our industry, that we waste a lot of time on communications with people who want it as close to free as possible. Usually the serious ones have no issue with our modest rates, and know that the reality of the process often means we go above and beyond what is remunerated. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### People who don't take their art seriously.
 
-A blue button should appear to click: *Make Public*,
+The artist/producer work process should be a meaningful collaboration that is focused on making something special. By making the sound snippets feature a wide variety of styles, I am hoping the sum of the difference communicates: "what this guy does is chameleonlike so its up to me to be the deciding creative force in this relationship". While sometimes the need to have income makes us slide on this issue a bit, it can really work against your reputation eventually. 
 
-Another blue button should appear to click: *Open Browser*.
+### Deployment procedure
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Having struggled a bit with Bootstrap, I am relieved that it isn't strictly necessary for this project. I may end up using some features, but at the outset am leaning away from it. Kevin Powell's videos on Youtube have been a fantastic resource to learn CSS Flexbox and CSS Grid. 
 
-## Updates Since The Instructional Video
+#### Mobile first approach
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+At the time of writing, its a 5 page site. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+First thing (after setting fonts and colours) will be making my index.html page with a hamburger icon nav (see links below to where I learned a JS free way of doing it) and very basic footer. Footer has no social media links, since I don't use it very much. It will have some sort of a fun icon and maybe a (c) mainly for the visual accent. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Copy and paste the nav and footer to all five pages.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Add background images and text areas in a block approach.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Margins, paddings, max-widths so that on a mobile view everything is nicely spaced.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Media queries
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+At a reasonable breakpoint, I will use media queries to organise the site into rows and columns. I intend to use the display:grid property as the heart of that. Each page will be a little bit different, but at the most complex I will still only have two columns for the main section. There may be a card at some point with a more complex nested grid structure, for the composition page. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Since I have mocked up the desktop view on Figma, Im still not clear on what design elements will be best on a mobile. 
 
---------
+### Figma screenshots
 
-Happy coding!
+
+
+
+
+
+
+    
+
