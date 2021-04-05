@@ -147,6 +147,10 @@ form label {
     
 }
 
+.btn:hover, .btn:focus {
+    color: red;
+}
+
 
 .form-container {
     display: flex;
