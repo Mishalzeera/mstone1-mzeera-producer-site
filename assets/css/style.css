@@ -95,7 +95,7 @@ h1 {
     background-color: #050e2b;
     background-image: url(../images/contact.jpg);  
     background-blend-mode: soft-light;
-    background-position: right;
+    background-position: left;
 }
 
 .img-background {
@@ -115,8 +115,12 @@ Contact section and Form
 .contact-box {
     max-width: 70%;
     margin: 0 auto;
-    padding-top: 20vh;
+    padding-top: 10vh;
     
+}
+
+.contact-box h2 {
+    margin-bottom: 1em;
 }
 
 form * {
