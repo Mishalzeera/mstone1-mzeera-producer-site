@@ -37,7 +37,7 @@ Margins, paddings, max-widths so that on a mobile view everything is nicely spac
 
 #### Media queries
 
-At a reasonable breakpoint, I will use media queries to organise the site into rows and columns. I intend to use the display:grid property as the heart of that. Each page will be a little bit different, but at the most complex I will still only have two columns for the main section. There may be a card at some point with a more complex nested grid structure, for the composition page. 
+At a reasonable breakpoint, I will use media queries to organise the site into rows and columns. I intend to use either the display:grid or flex property as the heart of that. Each page will be a little bit different, but at the most complex I will still only have two columns for the main section. There may be a card at some point with a more complex nested grid structure, for the composition page. 
 
 Since I have mocked up the desktop view on Figma, Im still not clear on what specific layout elements will be best on a mobile. 
 
