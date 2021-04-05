@@ -116,6 +116,8 @@ Contact section and Form
     max-width: 70%;
     margin: 0 auto;
     padding-top: 10vh;
+    margin-bottom: 1.2em;
+    
     
 }
 
@@ -127,7 +129,24 @@ form * {
     font-size: 1.5rem;
     max-width: 100%;
     margin-bottom: 1em;
+    border: 0;
+    padding: .4em 1.6em;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,black, #050e2b, hsl(9, 27%, 29%));
+    color: white;
+   
 }
+
+form label {
+    font-size: 1em;
+    padding: 0;
+}
+
+.btn {
+    font-size: 1.2em;
+    
+}
+
 
 .form-container {
     display: flex;
@@ -147,4 +166,9 @@ footer {
     background: black;
     min-height: 5rem;
     
+}
+
+.footer-box {
+    display: inline-block;
+    margin: 2em auto;
 }
