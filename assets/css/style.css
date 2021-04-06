@@ -9,7 +9,6 @@ Global styles and settings
 
 body {
     background: rgb(27, 27, 27);
-    background-repeat: no-repeat;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,12 +23,13 @@ body {
 a {
     color: white;
     text-decoration: none;
+    transition: color 300ms ease-in-out;
 }
 
 a:hover, a:focus {
-    color: red;
+    color: #596e83;
     text-decoration: none;
-    cursor: pointer;
+    
 }
 
 /* --------------------------
