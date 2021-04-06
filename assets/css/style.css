@@ -89,8 +89,8 @@ h1 {
     background-color: #4b160c;
     background-image: url(../images/compose.jpg);  
     background-blend-mode: soft-light;
-    background-position: center;
-    padding-top: 7em;
+    background-position: top;
+    /* padding-top: 3em; */
 }
 
 .contact-img {

@@ -3,7 +3,7 @@
 
 ### Purpose of the site
 
-I want to have a site that inspires confidence in my production services to a first time client. I intend to use funny audio samples to entertain and provoke interest. The snippets will double as a proof of ability. 
+I want to have a site that inspires confidence in my production services to a first time client. I initially intended to use funny audio samples to entertain and provoke interest. The snippets would in theory double as a proof of ability. However, after consulting with a sensible person, I came to the decision that it is better to just show a broad selection of my best work.
 
 ### Value of the site
 
@@ -13,11 +13,11 @@ Derek Sivers of CD Baby gives this advice: "find out who it is that you dont min
 
 #### People who just want the cheapest service available.
 
-The overall design aesthetic should communicate quality, and make people expect to pay a working professionals fee. Its probably not going to deter every free-work-seeker, but I like that as a starting point. I will not publish any price rates or mention any kind of special deals on the site either. It is very common that we waste a lot of time on people who want us to work for free. Usually the serious ones have no issue with our modest rates, and know that the reality of the process often means we go above and beyond what is remunerated. 
+The overall design aesthetic should communicate quality, and make people expect to pay a working professionals fee. I will not publish any price rates or mention any kind of special deals on the site either. Its probably not going to deter every "free-work-seeker" but I like that as a starting point.  It is very common that we waste a lot of time on people who want us to work for free. Usually the serious ones have no issue with our modest rates, and know that the reality of the process often means we go above and beyond what is remunerated. Of course I can't make that explicit ("NO TIMEWASTERS! is very offputting and the ghost of print ads of yore).
 
 #### People who don't take their art seriously.
 
-The artist/producer work process should meaningful - a collaboration that is focused on making something special together. By making the sound snippets feature a wide variety of styles, I am hoping the sum of the difference communicates: "what this guy does is chameleonlike so its up to me to be the deciding creative force in this relationship". While sometimes the need to have income makes us slide on this issue a bit, it can really work against your reputation eventually. 
+The artist/producer work process should be meaningful - a collaboration that is focused on making something special together. By making the sound snippets feature a wide variety of styles, I am hoping the sum of the difference communicates: "what this guy does is chameleonlike so its up to me to be the deciding creative force in this relationship". While sometimes the need to have income makes us slide on this issue a bit, it can really work against your reputation eventually. 
 
 ### Deployment procedure
 
@@ -43,13 +43,13 @@ At a reasonable breakpoint, I will use media queries to organise the site into r
 
 #### Other peoples codes and ideas
 
-At no point will I copy and paste code into my project from elsewhere, its just not as fun. I will however, follow a CSS layout approach I have learned in other online resources. This is mostly because it makes the fundamentals feel clearer to myself, and comes more naturally to me. 
+Instead of going for Bootstrap, I shall follow a CSS layout approach I have learned in other online resources. This is mostly because it makes the fundamentals feel clearer to myself, and comes more naturally to me. 
 
 If I do end up using Bootstrap, I will of course use their code snippets as a starting place. 
 
 ### Figma screenshots
 
-Looking for the right image for the Rec/Mix page, but for now I am using this as a placeholder. Also, have yet to pick an accent colour out. I don't want a strictly black and white site, at least at this point... Fonts are also still being chosen. 
+Looking for the right image for the Rec/Mix page, but for now I am using this as a placeholder. Also, have yet to pick an accent colour out. I don't want a strictly black and white site, at least at this point... Fonts are also still being chosen. UPDATE: I have gone with a background-blend-mode approach, using a background default color (which is good in case an image fails to load). By reducing the opacity of the images, the contrast with the text colour improves as well. 
 
 
 ### Home page
