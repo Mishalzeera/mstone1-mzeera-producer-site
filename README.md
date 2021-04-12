@@ -4,7 +4,6 @@
 
 ### Purpose of the site
 
-Test test test
 
 I want to have a site that inspires confidence in my production services to a first time client. I initially intended to use funny audio samples to entertain and provoke interest. The snippets would in theory double as a proof of ability. However, after consulting with a sensible person, I came to the decision that it is better to just show a broad selection of my best work.
 

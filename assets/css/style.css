@@ -8,16 +8,19 @@ Global styles and settings
 }
 
 body {
+    
     background: rgb(27, 27, 27);
-    color: white;
+    color: #e1efff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .container {
+    display: grid;
     width: 90%;
     margin: 0 auto;
-    text-align: center;        
+    text-align: center;   
+     
 }
 
 a {
@@ -32,11 +35,17 @@ a:hover, a:focus {
     
 }
 
+p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
 /* --------------------------
 Header (with Nav)
 -------------------------- */
 header {
     background: black;
+    color: #e1efff;
 }
 
 h1 {
@@ -68,9 +77,11 @@ h1 {
     background-image: url(../images/index.jpg);  
     background-blend-mode: soft-light;
     background-position: bottom;
-    padding-top: 3em;
+    /* padding-top: 3em; */
           
 }
+
+
 
 .prod-img {
     background-color: #4b160c;
@@ -78,6 +89,16 @@ h1 {
     background-blend-mode: soft-light;
     background-position: center;
 }
+
+@media (min-width: 790px) {
+    .index-img {
+        background-position: center;
+    }
+    .prod-img {
+        background-position: top;
+    }
+}
+
 .recmix-img {
     background-color: #050e2b;
     background-image: url(../images/recmix.jpg);  
@@ -110,6 +131,29 @@ h1 {
     height: 75vh;
 }
 
+/* ---------------------------------
+Body content
+--------------------------------- */
+
+
+.body-content {
+    justify-self: center;
+    align-self: center;     
+    margin-bottom: auto;
+}
+
+@media (min-width: 800px) {
+    .body-content {
+    max-width: 80%;
+    } 
+}
+
+@media (min-width: 1000px) {
+    .body-content {
+    max-width: 70%;
+    } 
+}
+
 
 /* ---------------------------------
 Contact section and Form
@@ -128,15 +172,26 @@ Contact section and Form
 }
 
 form * {
-    font-size: 1.5rem;
-    max-width: 100%;
+    font-style: inherit;
+    font-size: 1.2rem;
+    width: 100%;
     margin-bottom: .3em;
     border: 0;
-    padding: .4em 1.6em;
+    padding: .4em;
     border-radius: 5px;
     background-image: linear-gradient(to right,black, #050e2b, hsl(9, 27%, 29%));
     color: white;
    
+}
+
+label {
+    background: none;
+}
+
+textarea {
+    font-style: inherit;
+    font-size: 1.6rem;
+    resize: none;
 }
 
 
@@ -148,11 +203,18 @@ form label {
 .btn {
     font-size: 1.2em;
     margin-bottom: 0;
+    width: 50%;
+    transition: color 300ms ease-in-out;
+    
+    
     
 }
 
 .btn:hover, .btn:focus {
-    color: red;
+    color: #596e83;
+    cursor: pointer;
+    /* background-image: radial-gradient(black, #050e2b, hsl(9, 27%, 29%)); */
+    
 }
 
 
@@ -174,12 +236,46 @@ Footer
 -------------------------- */
 
 footer {
+  
     background: black;
     min-height: 5rem;
     
 }
 
+
+
 .footer-box {
+    color: #b3cee9;
     display: inline-block;
     margin: 2em auto;
+    letter-spacing: 1.5px;
+   
+}
+
+.envelope-icon {
+    color: #b3cee9;
+    transition: color 300ms ease-in-out;
+}
+
+.envelope-icon:hover, 
+.envelope-icon:focus {
+    color: #1f3068;
+}
+
+.marike-credit {
+    color: #596e83;
+    font-size: .6rem;    
+    letter-spacing: 1.5px;
+    margin-top: 1em;
+    opacity: .8;
+}
+
+
+.marike-link {
+    background-color: #050e2b;
+    padding: .2em .3em;
+    border-radius: 10px;
+    color: #eaf1f8; 
+    font-size: .7rem;
+    margin-left: .2em;
 }
