@@ -44,7 +44,6 @@ p {
 }
 
 
-
 /* --------------------------
 Header (with Nav)
 -------------------------- */
@@ -102,6 +101,7 @@ h1 {
     color: #1640c9;
     background: #050e2ba9;
     text-transform: lowercase;
+    font-size: .95rem;
 }
 
 .active:hover {
@@ -111,13 +111,19 @@ h1 {
 
 }
 
+@media (max-width: 500px) {
+    .active {
+        text-transform: unset;
+        font-size: inherit;
+    }
+}
 
 /* --------------------------
       Img backgrounds
 -------------------------- */
 
 .index-img {
-    background-color: #050e2b;
+    background-color: #050e2bde;
     background-image: url(../images/index.jpg);  
     background-blend-mode: soft-light;
     background-position: bottom;
@@ -159,13 +165,14 @@ h1 {
 }
 
 .contact-img {
-    background-color: #050e2b;
+    background-color: #050e2bde;
     background-image: url(../images/contact.jpg);  
     background-blend-mode: soft-light;
     background-position: left;
     /* padding-top: 3rem; */
     /* padding-bottom: 5rem; */
 }
+
 
 .img-background {
     display: block;
@@ -192,6 +199,8 @@ Body content
 .text-large {
     margin-top: 15%;
     background-color: #596e8371;
+    border: 1px solid rgba(135, 207, 235, 0.082);
+
 }
 
 .index-text {
@@ -225,14 +234,17 @@ Body content
 }
 
 @media (min-width: 500px) {
-.text-small {
+.text-small
+ {
     display: none;
     } 
 
 }
 
 @media (min-width: 680px) {
-.index-text {
+.index-text,
+.prod-text,
+.comp-text {
     font-size: 1rem;
 }
 }
@@ -251,9 +263,12 @@ Body content
 
 .audio-section {
     margin: 7em auto;
-    border: 1px solid skyblue;
+    border: 1px solid rgba(135, 207, 235, 0.233);
     display: flex;
     flex-direction: column;
+    /* margin-bottom: 50vh; */
+    max-height: 40vh;
+
     
 }
 
@@ -302,6 +317,12 @@ Contact section and Form
     margin-bottom: 1em;
 }
 
+form {
+    margin-bottom: 50vh;
+    max-height: 60vh;
+}
+
+
 form * {
     font-style: inherit;
     font-size: 1.2rem;
@@ -313,6 +334,12 @@ form * {
     background-image: linear-gradient(to right,black, #050e2b, hsl(9, 27%, 29%));
     color: white;
    
+}
+
+@media (max-width: 500px) {
+    form * {
+        font-size: 1rem;
+    }
 }
 
 label {
@@ -372,8 +399,7 @@ footer {
   
     background: black;
     min-height: 5rem;
-    
-    
+    vertical-align: bottom;
 }
 
 
@@ -382,8 +408,14 @@ footer {
     color: #b3cee9;
     display: inline-block;
     margin: 2em auto;
+    padding: 1em 0;
     letter-spacing: 1.5px;
-   
+    
+}
+
+.ctext {
+    text-transform: lowercase;
+    font-size: 1.1rem;
 }
 
 .envelope-icon {
@@ -412,5 +444,6 @@ footer {
     color: #eaf1f8; 
     font-size: .7rem;
     margin-left: .2em;
+    text-transform: lowercase;
 }
 
