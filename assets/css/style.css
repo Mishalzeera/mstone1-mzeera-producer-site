@@ -101,11 +101,13 @@ h1 {
 .active {
     color: #1640c9;
     background: #050e2ba9;
+    text-transform: lowercase;
 }
 
 .active:hover {
     color: #1640c9;
     background: #050e2ba9;
+    text-transform: lowercase;
 
 }
 
@@ -134,7 +136,7 @@ h1 {
 
 @media (min-width: 790px) {
     .index-img {
-        background-position: center;
+        background-position: center ;
     }
     .prod-img {
         background-position: top;
@@ -185,6 +187,33 @@ Body content
     
 }
 
+
+
+.text-large {
+    margin-top: 15%;
+    background-color: #596e8371;
+}
+
+.index-text {
+    max-width: 40%;
+    padding-top: 0;
+    background-color: #596e8371;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: auto;
+    font-size: .8rem;
+}
+
+.prod-text {
+    max-width: 50%;
+    margin: 8% auto;
+}
+.comp-text {
+    max-width: 60%;
+    margin: 8% auto 0 0;
+}
+
+
 @media (max-width: 500px) {
 .text-large {
     display: none;
@@ -192,14 +221,21 @@ Body content
 .text-small {
     display: block;
 }
+
 }
 
 @media (min-width: 500px) {
 .text-small {
     display: none;
     } 
+
 }
 
+@media (min-width: 680px) {
+.index-text {
+    font-size: 1rem;
+}
+}
 
 @media (min-width: 800px) {
     .body-content {
@@ -214,7 +250,7 @@ Body content
 }
 
 .audio-section {
-    margin: 5em auto;
+    margin: 7em auto;
     border: 1px solid skyblue;
     display: flex;
     flex-direction: column;
