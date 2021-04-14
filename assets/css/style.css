@@ -43,6 +43,8 @@ p {
     font-size: 1.2rem;
 }
 
+
+
 /* --------------------------
 Header (with Nav)
 -------------------------- */
@@ -96,6 +98,18 @@ h1 {
 }
 }
 
+.active {
+    color: #1640c9;
+    background: #050e2ba9;
+}
+
+.active:hover {
+    color: #1640c9;
+    background: #050e2ba9;
+
+}
+
+
 /* --------------------------
       Img backgrounds
 -------------------------- */
@@ -148,7 +162,7 @@ h1 {
     background-blend-mode: soft-light;
     background-position: left;
     /* padding-top: 3rem; */
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 }
 
 .img-background {
@@ -363,3 +377,4 @@ footer {
     font-size: .7rem;
     margin-left: .2em;
 }
+
