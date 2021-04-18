@@ -99,9 +99,9 @@ h1 {
 }
 
 
-.active,
-.active:hover,
-.active:focus {
+.cont-active,
+.cont-active:hover,
+.cont-active:focus {
     color: #1640c9;
     background: #050e2ba9;
     text-transform: lowercase;
@@ -130,9 +130,10 @@ h1 {
 }
 
 @media (max-width: 500px) {
-    .active {
-        text-transform: unset;
-        font-size: inherit;
+    .cont-active,
+    .prod-active,
+    .comp-active {
+        font-size: 1rem;
     }
 }
 
@@ -337,17 +338,33 @@ Contact section and Form
     max-width: 70%;
     margin: 0 auto;
     padding-top: 5vh;
+    
+
 
 
 }
+
+
 
 .contact-box h2 {
     margin-bottom: 1em;
 }
 
 form {
-    margin-bottom: 50vh;
+    /* margin-bottom: 50vh; */
     max-height: 60vh;
+    
+}
+
+@media (max-width: 500px) {
+    .contact-box {
+       padding-top: 2vh;
+    }
+
+        .contact-box h2 {
+            margin-bottom: .5em;
+        }
+
 }
 
 
@@ -376,8 +393,9 @@ label {
 
 textarea {
     font-style: inherit;
-    font-size: 1.6rem;
     resize: none;
+    min-height: 30vh;
+   
 }
 
 
@@ -410,6 +428,7 @@ form label {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 
 
 }
