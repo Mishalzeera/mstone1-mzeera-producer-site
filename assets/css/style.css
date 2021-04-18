@@ -8,23 +8,23 @@ Global styles and settings
 }
 
 body {
-    
+
     background: rgb(27, 27, 27);
     color: #e1efff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.container {    
-    
+.container {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    text-align: center;   
-     }
+    text-align: center;
+}
 
 a {
     color: white;
@@ -32,10 +32,11 @@ a {
     transition: color 300ms ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #596e83;
     text-decoration: none;
-    
+
 }
 
 p {
@@ -81,33 +82,50 @@ h1 {
 }
 
 @media (min-width: 500px) {
-     .nav-box {
+    .nav-box {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-     }
+    }
 
-     .list-outer {
-         display: inline;
-     }
-    
-     .list-item {
-    font-size: 1rem;
-    margin-bottom: .6em;
-}
+    .list-outer {
+        display: inline;
+    }
+
+    .list-item {
+        font-size: 1rem;
+        margin-bottom: .6em;
+    }
 }
 
-.active {
+
+.active,
+.active:hover,
+.active:focus {
     color: #1640c9;
     background: #050e2ba9;
     text-transform: lowercase;
     font-size: .95rem;
+
 }
 
-.active:hover {
-    color: #1640c9;
-    background: #050e2ba9;
+.prod-active,
+.prod-active:hover,
+.prod-active:focus {
+    color: #3f0d0d;
+    background: #861a1a;
     text-transform: lowercase;
+    font-size: .95rem;
+
+}
+
+.comp-active,
+.comp-active:hover,
+.comp-active:focus {
+    color: #071d08;
+    background: #1c2e1d;
+    text-transform: lowercase;
+    font-size: .95rem;
 
 }
 
@@ -124,26 +142,27 @@ h1 {
 
 .index-img {
     background-color: #050e2bde;
-    background-image: url(../images/index.jpg);  
+    background-image: url(../images/index.jpg);
     background-blend-mode: soft-light;
     background-position: bottom;
     /* padding-top: 3em; */
-          
+
 }
 
 
 
 .prod-img {
     background-color: #4b160c;
-    background-image: url(../images/prod.jpg);  
+    background-image: url(../images/prod.jpg);
     background-blend-mode: soft-light;
     background-position: center;
 }
 
 @media (min-width: 790px) {
     .index-img {
-        background-position: center ;
+        background-position: center;
     }
+
     .prod-img {
         background-position: top;
     }
@@ -151,14 +170,14 @@ h1 {
 
 .recmix-img {
     background-color: #050e2b;
-    background-image: url(../images/recmix.jpg);  
+    background-image: url(../images/recmix.jpg);
     background-blend-mode: soft-light;
     background-position: center;
 }
 
 .comp-img {
     background-color: #1c2e1d;
-    background-image: url(../images/compose.jpg);  
+    background-image: url(../images/compose.jpg);
     background-blend-mode: soft-light;
     background-position: top;
     /* padding-top: 3em; */
@@ -166,7 +185,7 @@ h1 {
 
 .contact-img {
     background-color: #050e2bde;
-    background-image: url(../images/contact.jpg);  
+    background-image: url(../images/contact.jpg);
     background-blend-mode: soft-light;
     background-position: left;
     /* padding-top: 3rem; */
@@ -176,7 +195,7 @@ h1 {
 
 .img-background {
     display: block;
-    max-width: 100%;   
+    max-width: 100%;
     background-size: cover;
     width: 100%;
     height: 75vh;
@@ -188,10 +207,10 @@ Body content
 
 
 .body-content {
-    
+
     max-width: 90%;
     height: 80vh;
-    
+
 }
 
 
@@ -217,6 +236,7 @@ Body content
     max-width: 50%;
     margin: 8% auto;
 }
+
 .comp-text {
     max-width: 60%;
     margin: 8% auto 0 0;
@@ -224,53 +244,54 @@ Body content
 
 
 @media (max-width: 500px) {
-.text-large {
-    display: none;
-    } 
-.text-small {
-    display: block;
-}
+    .text-large {
+        display: none;
+    }
+
+    .text-small {
+        display: block;
+    }
 
 }
 
 @media (min-width: 500px) {
-.text-small
- {
-    display: none;
-    } 
+    .text-small {
+        display: none;
+    }
 
 }
 
 @media (min-width: 680px) {
-.index-text,
-.prod-text,
-.comp-text {
-    font-size: 1rem;
-}
+
+    .index-text,
+    .prod-text,
+    .comp-text {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 800px) {
     .body-content {
-    max-width: 80%;
-    } 
+        max-width: 80%;
+    }
 }
 
 @media (min-width: 1000px) {
     .body-content {
-    max-width: 70%;
-    } 
+        max-width: 70%;
+    }
 }
 
 .audio-section {
     margin: 7em auto;
-    
+
     display: flex;
     flex-direction: column;
     /* margin-bottom: 50vh; */
     max-height: 40vh;
     border: 1px solid rgba(135, 207, 235, 0.233);
 
-    
+
 }
 
 .audio-units {
@@ -278,11 +299,11 @@ Body content
     justify-content: space-between;
     align-items: center;
     margin: .5em;
-    
+
 }
 
 .audio-labels {
-    
+
     margin-right: 2.5em;
     font-size: .8rem;
     font-weight: bold;
@@ -290,8 +311,8 @@ Body content
     letter-spacing: 1px;
     background-color: rgba(225, 239, 255, 0.39);
     color: #050e2b;
-    
-    
+
+
 }
 
 audio {
@@ -299,7 +320,7 @@ audio {
     height: 1em;
     width: 40%;
     opacity: .5;
-    
+
 }
 
 @media (max-height: 500px) {
@@ -315,9 +336,9 @@ Contact section and Form
 .contact-box {
     max-width: 70%;
     margin: 0 auto;
-    padding-top: 5vh; 
-      
-    
+    padding-top: 5vh;
+
+
 }
 
 .contact-box h2 {
@@ -338,9 +359,9 @@ form * {
     border: 0;
     padding: .4em;
     border-radius: 5px;
-    background-image: linear-gradient(to right,black, #050e2b, hsl(9, 27%, 29%));
+    background-image: linear-gradient(to right, black, #050e2b, hsl(9, 27%, 29%));
     color: white;
-   
+
 }
 
 @media (max-width: 500px) {
@@ -370,26 +391,27 @@ form label {
     margin-bottom: 0;
     width: 50%;
     transition: color 300ms ease-in-out;
-    
-    
-    
+
+
+
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     color: #596e83;
     cursor: pointer;
     /* background-image: radial-gradient(black, #050e2b, hsl(9, 27%, 29%)); */
-    
+
 }
 
 
 .form-container {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 }
 
 form {
@@ -403,7 +425,7 @@ Footer
 -------------------------- */
 
 footer {
-  
+
     background: black;
     min-height: 5rem;
     vertical-align: bottom;
@@ -417,7 +439,7 @@ footer {
     margin: 2em auto;
     padding: 1em 0;
     letter-spacing: 1.5px;
-    
+
 }
 
 .ctext {
@@ -430,14 +452,14 @@ footer {
     transition: color 300ms ease-in-out;
 }
 
-.envelope-icon:hover, 
+.envelope-icon:hover,
 .envelope-icon:focus {
     color: #1f3068;
 }
 
 .marike-credit {
     color: #596e83;
-    font-size: .6rem;    
+    font-size: .6rem;
     letter-spacing: 1.5px;
     margin-top: 1em;
     opacity: .8;
@@ -448,9 +470,8 @@ footer {
     background-color: #050e2b;
     padding: .2em .3em;
     border-radius: 10px;
-    color: #eaf1f8; 
+    color: #eaf1f8;
     font-size: .7rem;
     margin-left: .2em;
     text-transform: lowercase;
 }
-
