@@ -250,7 +250,29 @@ Body content
     }
 
     .text-small {
+        margin: .5em 0;
         display: block;
+        font-size: 1.2rem;
+    }
+
+ i {
+     display: none;
+ }
+
+    /* nav {
+        display: none;
+    }  */
+
+    .ind-link1 {
+        color: red;
+    }
+
+    .ind-link2 {
+        color: green;
+    }
+
+    .ind-link3 {
+        color: blue;
     }
 
 }
@@ -334,14 +356,14 @@ audio {
 Contact section and Form
 --------------------------------- */
 
+.number {
+    font-weight: lighter;
+}
+
 .contact-box {
     max-width: 70%;
     margin: 0 auto;
     padding-top: 5vh;
-    
-
-
-
 }
 
 
@@ -405,20 +427,24 @@ form label {
 }
 
 .btn {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 0;
     width: 50%;
     transition: color 300ms ease-in-out;
+}
 
+@media (max-width: 500px) {
 
-
+    .btn {
+    font-size: 1rem;
+}
 }
 
 .btn:hover,
 .btn:focus {
     color: #596e83;
     cursor: pointer;
-    /* background-image: radial-gradient(black, #050e2b, hsl(9, 27%, 29%)); */
+    background-image: radial-gradient(black, #050e2b, hsl(9, 27%, 29%));
 
 }
 
