@@ -4,7 +4,7 @@
 
 ### Purpose of the site
 
-I want to have a site that inspires confidence in my production services to a first time client. I initially intended to use funny audio samples to entertain and provoke interest. The snippets would in theory double as a proof of ability. However, after consulting with a sensible person, I came to the decision that it is better to just show a broad selection of my best work.
+I want to have a site that inspires confidence in my production services to a first time client. I initially intended to use funny audio samples to entertain and provoke interest. The snippets would in theory double as a proof of ability. However, after consulting with a sensible person, I came to the decision that it is better to just show a selection of my work.
 
 ### Value of the site
 
@@ -20,11 +20,11 @@ The overall design aesthetic should communicate quality, and make people expect 
 
 The artist/producer work process should be meaningful - a collaboration that is focused on making something special together. By making the sound snippets feature a wide variety of styles, I am hoping the sum of the difference communicates: "what this guy does is chameleonlike so its up to me to be the deciding creative force in this relationship". While sometimes the need to have income makes us slide on this issue a bit, it can really work against your reputation eventually.
 
-### Deployment procedure
+## Deployment procedure
 
 Having struggled a bit with Bootstrap, I am relieved that it isn't strictly necessary for this project. I may end up using some features, but at the outset am leaning away from it. Kevin Powell's videos on Youtube have been a fantastic resource to learn CSS Flexbox and CSS Grid.
 
-#### Mobile first approach
+### Mobile first approach
 
 I reduced the site down to 4 pages, including the index. It made more sense and kept things more focused.
 
@@ -38,11 +38,11 @@ Margins, paddings, max-widths so that on a mobile view everything is nicely spac
 
 Add audio resources and style them.
 
-#### Media queries
+### Media queries
 
 At a reasonable breakpoint, I will use media queries to organise the site into rows and columns. I intend to use either the display:grid or flex property as the heart of that. Each page will be a little bit different, but at the most complex I will still only have two columns for the main section. There may be a card at some point with a more complex nested grid structure, but I will wait to decide once I have done some more work.
 
-#### Other peoples codes and ideas
+### Other peoples codes and ideas
 
 Instead of going for Bootstrap, I shall follow a CSS layout approach I have learned in other online resources. This is mostly because it makes the fundamentals feel clearer to myself, and comes more naturally to me.
 
@@ -52,31 +52,25 @@ If I do end up using Bootstrap, I will of course use their code snippets as a st
 
 Looking for the right image for the Rec/Mix page, but for now I am using this as a placeholder. Also, have yet to pick an accent colour out. I don't want a strictly black and white site, at least at this point... Fonts are also still being chosen. UPDATE: I have gone with a background-blend-mode approach, using a background default color (which is good in case an image fails to load). By reducing the opacity of the images, the contrast with the text colour improves as well.
 
-### Home page
+## Home page
 
 ![Home Page](readmeimg/home.png)
 
-### Production page
+## Production page
 
 ![Production Page](readmeimg/prod.png)
 
-### Recording/Mixing page
+## Recording/Mixing page
 
 ![Recording/Mixing Page](readmeimg/recmix.png)
 
-### Composition page
+## Composition page
 
 ![Composition Page](readmeimg/compose.png)
 
-### Contact Page
+## Contact Page
 
 ![Contact Page](readmeimg/contact.png)
-
-## Video resources
-
-[KP Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
-
-[KP Building a CSS Grid layout](https://www.youtube.com/watch?v=v5KzBPUEgGQ)
 
 ## HTML validation issue
 
@@ -88,4 +82,42 @@ Css validated without errors.
 
 ## 'Screenshots that align with the goal'
 
-On a personal level, I struggle a bit with this way of thinking. I can imagine this is more of a professional persons way of expressing themselves in a corporate environment.
+### Text/ no text
+
+At small sizes, the blurbs for the main body disappear. Like this-->
+
+![With text at full size](readmeimg/index_rm.png)
+
+![Without text at mobile sizes](readmeimg/index_sm_rm.png)
+
+### Which...
+
+...it seems to me makes for a less cluttered mobile experience. The background image works more like a main content for the moment. Then when you touch one of the other options, its clear enough that you can press "play" and hear samples.
+
+### Active class nav items that reinforce design decisions
+
+I thought this was a good way to reinforce the image and colour choices, by including background blend colour in the active class. To me it reinforces the intention of a simple, cohesive design approach.
+
+![Cohesion between active class and background](readmeimg/comp_rm.png)
+
+### Audio players that don't overly dominate the territory...
+
+The default audio player is far too chunky. I slimmed it down and tried to fit it in a little better.
+
+![Ugly audio player now a bit more attractive and suited to the site's purpose](readmeimg/prod_rm.png)
+
+### Footer contact link and credit link understated
+
+I decided against a complex, link-heavy footer for the main reason that the social media that pertains is too diverse and inconsistent. There is no Instagram page and the Facebook page is more personal than promotional. Also, I would really like people to listen to the audio examples and then simply contact me if they feel it is a right fit. By limiting the decision making to just those things, I think it might lead to a better outcome.
+
+![Simple, hassle free footer](readmeimg/footer_rm.png)
+
+# Video resources
+
+I relied heavily on one particular guy called Kevin Powell's videos on Youtube and Scrimba to learn more about CSS. Here are some links to videos I found helpful - bear in mind these are just a tiny sample, I watched a lot of them, including short CSS bootcamp tutorials.
+
+[KP Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
+
+[KP Building a CSS Grid layout](https://www.youtube.com/watch?v=v5KzBPUEgGQ)
+
+[Responsive design bootcamp](https://scrimba.com/learn/responsive)
