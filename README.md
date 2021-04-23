@@ -4,7 +4,6 @@
 
 ### Purpose of the site
 
-
 I want to have a site that inspires confidence in my production services to a first time client. I initially intended to use funny audio samples to entertain and provoke interest. The snippets would in theory double as a proof of ability. However, after consulting with a sensible person, I came to the decision that it is better to just show a broad selection of my best work.
 
 ### Value of the site
@@ -27,11 +26,11 @@ Having struggled a bit with Bootstrap, I am relieved that it isn't strictly nece
 
 #### Mobile first approach
 
-At the time of writing, its a 5 page site.
+I reduced the site down to 4 pages, including the index. It made more sense and kept things more focused.
 
 First thing (after setting fonts and colours) will be making my index.html page and a basic footer. Footer has no social media links, since I don't use it very much. It will have some sort of a fun icon and maybe a (c) mainly for the visual accent.
 
-Copy and paste the nav and footer to all five pages.
+Copy and paste the nav and footer to all pages.
 
 Add background images and text areas in a block approach.
 
@@ -78,3 +77,15 @@ Looking for the right image for the Rec/Mix page, but for now I am using this as
 [KP Responsive design made easy](https://www.youtube.com/watch?v=bn-DQCifeQQ)
 
 [KP Building a CSS Grid layout](https://www.youtube.com/watch?v=v5KzBPUEgGQ)
+
+## HTML validation issue
+
+The message "The value of the for attribute of the label element must be the ID of a non-hidden form control." comes up when I validate the markup for the pages including the audio player. From what I understand, the label element is often used outside of the form context to accomplish other ends, so I will continue with the use of it til I learn otherwise.
+
+Also, in the contact page, within the form element - method="#" comes up as an error. I am using that as a placeholder til I learn how to properly assign it.
+
+Css validated without errors.
+
+## 'Screenshots that align with the goal'
+
+On a personal level, I struggle a bit with this way of thinking. I can imagine this is more of a professional persons way of expressing themselves in a corporate environment.
