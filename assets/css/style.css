@@ -61,6 +61,8 @@ h1 {
     padding-top: .2em;
 }
 
+/* Note - @media queries on this stylesheet are organised in separate sections rather than in a single grouping at the end. Largely because the images all needed different positioning settings and it was easier to keep track of when they were close by. Also, while learning different techniques it was useful to have the modified properties visible.  */
+
 @media (min-width: 500px) {
     h1 {
         font-size: 3rem;
@@ -146,7 +148,7 @@ h1 {
     background-image: url(../images/index.jpg);
     background-blend-mode: soft-light;
     background-position: bottom;
-    /* padding-top: 3em; */
+    
 
 }
 
@@ -181,7 +183,7 @@ h1 {
     background-image: url(../images/compose.jpg);
     background-blend-mode: soft-light;
     background-position: top;
-    /* padding-top: 3em; */
+    
 }
 
 .contact-img {
@@ -189,8 +191,7 @@ h1 {
     background-image: url(../images/contact.jpg);
     background-blend-mode: soft-light;
     background-position: left;
-    /* padding-top: 3rem; */
-    /* padding-bottom: 5rem; */
+    
 }
 
 
@@ -259,9 +260,6 @@ Body content
      display: none;
  }
 
-    /* nav {
-        display: none;
-    }  */
 
     .ind-link1 {
         color: red;
@@ -310,7 +308,6 @@ Body content
 
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 50vh; */
     max-height: 40vh;
     border: 1px solid rgba(135, 207, 235, 0.233);
 
@@ -373,7 +370,7 @@ Contact section and Form
 }
 
 form {
-    /* margin-bottom: 50vh; */
+    
     max-height: 60vh;
     
 }
@@ -383,7 +380,7 @@ form {
        padding-top: 2vh;
     }
 
-        .contact-box h2 {
+    .contact-box h2 {
             margin-bottom: .5em;
         }
 
