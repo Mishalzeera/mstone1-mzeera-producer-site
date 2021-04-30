@@ -8,7 +8,8 @@ Global styles and settings
 }
 
 body {
-
+    display: flex;
+    flex-direction: column;
     background: rgb(27, 27, 27);
     color: #e1efff;
     font-family: Arial, Helvetica, sans-serif;
@@ -105,7 +106,7 @@ h1 {
 .cont-active:hover,
 .cont-active:focus {
     color: rgba(255, 255, 255, 0.664);
-    background: #050e2ba9;
+    background: #0a1a50a6;
     text-transform: lowercase;
     font-size: .98rem;
 
@@ -115,7 +116,7 @@ h1 {
 .prod-active:hover,
 .prod-active:focus {
     color: rgba(255, 255, 255, 0.664);
-    background: #861a1a;
+    background: #861a1ac5;
     text-transform: lowercase;
     font-size: .95rem;
 
@@ -467,10 +468,11 @@ Footer
 -------------------------- */
 
 footer {
-
+    
     background: black;
     min-height: 5rem;
     vertical-align: bottom;
+    margin-top: auto;
 }
 
 
