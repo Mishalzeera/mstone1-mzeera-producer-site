@@ -58,8 +58,8 @@ header {
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    padding-top: .2em;
+    letter-spacing: 3px;
+    
 }
 
 /* Note - @media queries on this stylesheet are organised in separate sections rather than in a single grouping at the end. Largely because the images all needed different positioning settings and it was easier to keep track of when they were close by. Also, while learning different techniques it was useful to have the modified properties visible.  */
@@ -68,6 +68,7 @@ h1 {
     h1 {
         font-size: 3rem;
         letter-spacing: 10px;
+        padding-top: .2em;
     }
 }
 
@@ -80,11 +81,12 @@ h1 {
 }
 
 .list-item {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: .2em;
 }
 
 @media (min-width: 500px) {
+    
     .nav-box {
         display: flex;
         flex-direction: row;
@@ -96,11 +98,31 @@ h1 {
     }
 
     .list-item {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: .6em;
     }
 }
 
+@media (max-width: 500px) {
+    .nav-box {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        text-align: left;
+       
+        
+    }
+
+    nav {
+        min-width: 40%;
+    }
+
+    h1{
+        flex-basis: 40%;
+        text-align:end;
+    }
+}
 
 .cont-active,
 .cont-active:hover,
@@ -108,7 +130,7 @@ h1 {
     color: rgba(255, 255, 255, 0.664);
     background: #0a1a50a6;
     text-transform: lowercase;
-    font-size: .98rem;
+   
 
 }
 
@@ -118,7 +140,7 @@ h1 {
     color: rgba(255, 255, 255, 0.664);
     background: #861a1ac5;
     text-transform: lowercase;
-    font-size: .95rem;
+  
 
 }
 
@@ -128,7 +150,7 @@ h1 {
     color: rgba(255, 255, 255, 0.664);
     background: #1c2e1d;
     text-transform: lowercase;
-    font-size: .95rem;
+    
 
 }
 
