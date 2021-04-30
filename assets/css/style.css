@@ -104,7 +104,7 @@ h1 {
 .cont-active,
 .cont-active:hover,
 .cont-active:focus {
-    color: #1640c9;
+    color: rgba(255, 255, 255, 0.664);
     background: #050e2ba9;
     text-transform: lowercase;
     font-size: .98rem;
@@ -114,7 +114,7 @@ h1 {
 .prod-active,
 .prod-active:hover,
 .prod-active:focus {
-    color: #3f0d0d;
+    color: rgba(255, 255, 255, 0.664);
     background: #861a1a;
     text-transform: lowercase;
     font-size: .95rem;
@@ -124,7 +124,7 @@ h1 {
 .comp-active,
 .comp-active:hover,
 .comp-active:focus {
-    color: #071d08;
+    color: rgba(255, 255, 255, 0.664);
     background: #1c2e1d;
     text-transform: lowercase;
     font-size: .95rem;
