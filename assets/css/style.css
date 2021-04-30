@@ -242,7 +242,8 @@ Body content
 
 .text-large {
     margin-top: 15%;
-    background-color: #596e8371;
+    /* background-color: #596e8371; */
+    background-color: #0105088e;
     border: 1px solid rgba(135, 207, 235, 0.082);
 
 }
@@ -250,7 +251,8 @@ Body content
 .index-text {
     max-width: 40%;
     padding-top: 0;
-    background-color: #596e8371;
+    /* background-color: #596e8371; */
+    background-color: #010508be;
     position: absolute;
     margin-top: 5%;
     margin-left: auto;
